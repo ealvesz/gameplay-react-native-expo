@@ -1,21 +1,36 @@
-# GamePlay
+# GamePlay — Aplicação Mobile
 
-Projeto acadêmico em React Native + Expo + TypeScript.
+Projeto acadêmico desenvolvido com React Native, Expo e TypeScript para praticar desenvolvimento mobile, organização do código e implementação de funcionalidades.
 
-## Telas
-- Login
-- Home
-- Detalhes da partida
-- Agendamento
+## Telas do aplicativo
 
-## Instalação
-Abra a pasta no VS Code e execute:
+- **Login:** tela inicial do aplicativo.
+- **Home:** visualização dos servidores de jogos.
+- **Detalhes do servidor:** informações sobre o servidor selecionado.
+- **Agendamento:** interface para organizar uma partida e selecionar uma categoria.
+
+## Tecnologias utilizadas
+
+- React Native
+- Expo
+- TypeScript
+- React Navigation
+
+## Como executar
+
+Abra a pasta do projeto no VS Code e execute os comandos no terminal:
 
 ```bash
 npm install
 npx expo start
 ```
 
-Para testar no iPhone, use o Expo Go e escaneie o QR Code.
+Para testar no iPhone, instale o Expo Go e siga as instruções exibidas pelo Expo.
 
-Este é um protótipo acadêmico com dados mockados; não possui backend, banco de dados ou autenticação real do Discord.
+## Observações
+
+Este é um protótipo acadêmico com dados demonstrativos. Não possui backend, banco de dados ou autenticação real do Discord.
+
+## Autor
+
+Kauã Kairon Alves de Melo
