@@ -1,0 +1,193 @@
+import { StyleSheet } from 'react-native';
+import { theme } from '../../global/styles/theme';
+
+export const styles = StyleSheet.create({
+  header: {
+    width: '100%',
+    paddingHorizontal: 20,
+    marginTop: 50,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 20,
+  },
+  backButton: {
+    width: 40,
+    height: 40,
+    borderRadius: 8,
+    backgroundColor: theme.colors.secondary60,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 1,
+    borderColor: theme.colors.secondary70,
+  },
+  headerTitle: {
+    fontFamily: theme.fonts.title,
+    color: theme.colors.heading,
+    fontSize: 16,
+    letterSpacing: 1,
+    fontWeight: 'bold',
+  },
+  serverCard: {
+    marginHorizontal: 24,
+    padding: 14,
+    backgroundColor: theme.colors.secondary60,
+    borderRadius: 8,
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 24,
+    borderWidth: 1,
+    borderColor: theme.colors.secondary70,
+  },
+  serverInfo: {
+    flex: 1,
+    marginLeft: 14,
+  },
+  serverName: {
+    color: theme.colors.heading,
+    fontSize: 16,
+    fontFamily: theme.fonts.heading,
+    fontWeight: 'bold',
+  },
+  statusRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 3,
+  },
+  greenDot: {
+    width: 6,
+    height: 6,
+    borderRadius: 3,
+    backgroundColor: theme.colors.on,
+    marginRight: 6,
+  },
+  serverStatus: {
+    color: theme.colors.body,
+    fontSize: 12,
+  },
+  sectionTitleRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    paddingHorizontal: 24,
+    marginBottom: 12,
+  },
+  label: {
+    color: theme.colors.heading,
+    fontFamily: theme.fonts.heading,
+    fontSize: 13,
+    fontWeight: 'bold',
+    letterSpacing: 0.8,
+  },
+  subLabel: {
+    color: theme.colors.highlight,
+    fontSize: 11,
+  },
+  form: {
+    paddingHorizontal: 24,
+    marginTop: 20,
+  },
+  row: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 8,
+  },
+  fieldLabel: {
+    color: theme.colors.heading,
+    fontFamily: theme.fonts.heading,
+    fontSize: 13,
+    fontWeight: 'bold',
+    marginBottom: 8,
+    letterSpacing: 0.5,
+  },
+  timeInputsRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  divider: {
+    color: theme.colors.highlight,
+    fontSize: 18,
+    marginHorizontal: 6,
+  },
+  timezoneRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 4,
+    marginBottom: 18,
+  },
+  timezoneHint: {
+    color: theme.colors.highlight,
+    fontSize: 11,
+  },
+  descriptionHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  counter: {
+    color: theme.colors.highlight,
+    fontSize: 11,
+  },
+  textArea: {
+    width: '100%',
+    height: 100,
+    backgroundColor: theme.colors.secondary60,
+    borderRadius: 8,
+    color: theme.colors.heading,
+    padding: 14,
+    fontSize: 14,
+    fontFamily: theme.fonts.text,
+    textAlignVertical: 'top',
+    borderWidth: 1,
+    borderColor: theme.colors.secondary70,
+    marginTop: 8,
+    marginBottom: 16,
+  },
+  lobbyInfoCard: {
+    backgroundColor: theme.colors.secondary60,
+    borderRadius: 8,
+    padding: 12,
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 24,
+    borderWidth: 1,
+    borderColor: theme.colors.secondary70,
+  },
+  lobbyTag: {
+    backgroundColor: theme.colors.primary,
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    borderRadius: 6,
+    marginRight: 10,
+  },
+  lobbyTagText: {
+    color: theme.colors.heading,
+    fontSize: 11,
+    fontWeight: 'bold',
+  },
+  lobbyDetails: {
+    flex: 1,
+  },
+  lobbyTitle: {
+    color: theme.colors.heading,
+    fontSize: 13,
+    fontWeight: 'bold',
+  },
+  lobbySub: {
+    color: theme.colors.highlight,
+    fontSize: 11,
+  },
+  squadBadge: {
+    backgroundColor: 'rgba(255,255,255,0.06)',
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    borderRadius: 4,
+  },
+  squadBadgeText: {
+    color: theme.colors.body,
+    fontSize: 10,
+    fontWeight: 'bold',
+  },
+  footer: {
+    marginBottom: 34,
+  }
+});

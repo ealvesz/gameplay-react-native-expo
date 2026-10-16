@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "GamePlay",
+    "slug": "gameplay",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0A1033"
+    },
+    "backgroundColor": "#0A1033",
+    "primaryColor": "#E51C44"
+  }
+}

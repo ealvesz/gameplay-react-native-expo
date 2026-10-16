@@ -1,0 +1,150 @@
+import { StyleSheet } from 'react-native';
+import { theme } from '../../global/styles/theme';
+
+export const styles = StyleSheet.create({
+  header: {
+    width: '100%',
+    paddingHorizontal: 20,
+    marginTop: 50,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 16,
+  },
+  backButton: {
+    width: 40,
+    height: 40,
+    borderRadius: 8,
+    backgroundColor: theme.colors.secondary60,
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 1,
+    borderColor: theme.colors.secondary70,
+  },
+  headerTitle: {
+    fontFamily: theme.fonts.title,
+    color: theme.colors.heading,
+    fontSize: 16,
+    letterSpacing: 1,
+    fontWeight: 'bold',
+  },
+  bannerContainer: {
+    marginHorizontal: 20,
+    padding: 20,
+    backgroundColor: theme.colors.secondary60,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: theme.colors.secondary70,
+  },
+  badgeOnline: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 6,
+  },
+  greenDot: {
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+    backgroundColor: theme.colors.on,
+    marginRight: 6,
+  },
+  badgeOnlineText: {
+    color: theme.colors.on,
+    fontSize: 11,
+    fontFamily: theme.fonts.medium,
+    fontWeight: 'bold',
+  },
+  title: {
+    fontFamily: theme.fonts.title,
+    fontSize: 24,
+    color: theme.colors.heading,
+    fontWeight: 'bold',
+  },
+  subtitle: {
+    fontFamily: theme.fonts.text,
+    fontSize: 13,
+    color: theme.colors.body,
+    marginTop: 4,
+    lineHeight: 18,
+  },
+  rulesCard: {
+    marginHorizontal: 20,
+    marginTop: 14,
+    padding: 14,
+    backgroundColor: theme.colors.secondary60,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: theme.colors.secondary70,
+  },
+  rulesHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 8,
+  },
+  rulesTitleRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  rulesTitle: {
+    color: theme.colors.heading,
+    fontFamily: theme.fonts.heading,
+    fontSize: 13,
+    fontWeight: 'bold',
+  },
+  rulesCount: {
+    color: theme.colors.highlight,
+    fontSize: 12,
+  },
+  rulesText: {
+    color: theme.colors.body,
+    fontSize: 12,
+    lineHeight: 18,
+  },
+  membersSection: {
+    flex: 1,
+    paddingHorizontal: 20,
+    marginTop: 14,
+  },
+  membersHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginBottom: 10,
+  },
+  membersTitle: {
+    color: theme.colors.heading,
+    fontFamily: theme.fonts.heading,
+    fontSize: 13,
+    fontWeight: 'bold',
+    letterSpacing: 0.5,
+  },
+  membersTotal: {
+    color: theme.colors.highlight,
+    fontSize: 12,
+  },
+  membersList: {
+    marginBottom: 10,
+  },
+  footer: {
+    paddingHorizontal: 20,
+    paddingBottom: 24,
+    gap: 10,
+  },
+  secondaryButton: {
+    width: '100%',
+    height: 48,
+    backgroundColor: theme.colors.secondary60,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: theme.colors.secondary70,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  secondaryButtonText: {
+    color: theme.colors.heading,
+    fontSize: 12,
+    fontFamily: theme.fonts.medium,
+    fontWeight: 'bold',
+  }
+});
